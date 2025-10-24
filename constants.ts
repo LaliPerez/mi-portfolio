@@ -1,5 +1,6 @@
 import type { Project, SkillCategory, Certification } from './types';
-import { CredlyLogo, AWSIcon, GoogleCloudIcon, KubernetesIcon } from './components/icons/BrandIcons';
+// Fix: Add IBMIcon to the import statement.
+import { CredlyLogo, AWSIcon, GoogleCloudIcon, KubernetesIcon, IBMIcon } from './components/icons/BrandIcons';
 
 export const NAV_LINKS = [
   { name: 'Skills', href: '#skills' },
@@ -11,11 +12,12 @@ export const NAV_LINKS = [
 export const PROFILE = {
   name: "Laura M Pérez Bosio",
   title: "Cloud Engineer, Gen AI Leader & Full-Stack Developer",
-  about: "I’m Laura Pérez Bosio, a tech-driven professional passionate about leveraging Cloud, AI, and Digital Transformation to drive innovation and make organizations more efficient, agile, and human-centered.
+  // Fix: Use a template literal for the multiline 'about' string to fix parsing errors.
+  about: `I’m Laura Pérez Bosio, a tech-driven professional passionate about leveraging Cloud, AI, and Digital Transformation to drive innovation and make organizations more efficient, agile, and human-centered.
 
 My background in architecture and procurement taught me how systems connect — people, processes, and technology. That systems thinking became the foundation for my journey into cloud computing and intelligent automation, where I now focus on transforming ideas into scalable, data-driven solutions.
 
-I’m proactive, creative, and endlessly curious, with a hands-on mindset that thrives on learning, problem-solving, and delivering real impact through technology..",
+I’m proactive, creative, and endlessly curious, with a hands-on mindset that thrives on learning, problem-solving, and delivering real impact through technology..`,
   location: "Ciudad de Buenos Aires, Argentina"
 };
 

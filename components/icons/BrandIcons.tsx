@@ -25,3 +25,12 @@ export const KubernetesIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) =
     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-2.12-5.29L12 12.59l2.12 2.12 1.41-1.41L13.41 11.17l2.12-2.12-1.41-1.41L12 9.76l-2.12-2.12-1.41 1.41L10.59 11.17l-2.12 2.12 1.41 1.41z" />
   </svg>
 );
+
+export const IBMIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+    <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
+        <rect x="2" y="10" width="20" height="4" />
+        <rect x="2" y="15" width="8" height="2" />
+        <rect x="14" y="15" width="8" height="2" />
+        <rect x="2" y="5" width="20" height="4" />
+    </svg>
+);
