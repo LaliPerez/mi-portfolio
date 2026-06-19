@@ -1,4 +1,4 @@
-[![whatIDO](https://what-ido.vercel.app/api/badge/eduardo-lobo)](https://what-ido.vercel.app/p/laura-perez-bosio)
+[![whatIDO](https://what-ido.vercel.app/api/badge/laura-marcela-perez-bosio)](https://what-ido.vercel.app/p/laura-marcela-perez-bosio)
 
 <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
